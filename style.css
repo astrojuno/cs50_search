@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+}
+span {
+    margin: 0px; 
+    padding: 0px; 
+    letter-spacing: -12px; 
+}
+
+.pageElement {
+    text-align: center;
+    height: 30%;
+    max-height: 500px;
+    padding: 20px;
+}
+
+.button {
+    background-color: #E5E4E2;
+    width: 20%;
+    font-size: 120%;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#top {
+    text-align: right;
+}
+
+#searchBox {
+    width: 50%;
+    font-size: 180%;
+    padding: 15px;
+    border-radius: 999px;
+    border: 1px solid lightgray;
+}
+
+#searchBox:hover {
+    box-shadow: 0px 0px 4px lightgray;
+}

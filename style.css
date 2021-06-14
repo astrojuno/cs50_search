@@ -44,3 +44,12 @@ span {
 #searchBox:hover {
     box-shadow: 0px 0px 4px lightgray;
 }
+
+#imageLogoDiv {
+    width: 65%;
+}
+
+#imageLogo {
+    margin-top: -50px;
+    text-align: right;
+}

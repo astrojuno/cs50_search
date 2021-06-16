@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JunoSearch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="advancedPageElement" id="top">
+            <a href="search.html">Juno</a>
+            <a href="imageSearch.html">Image</a>
+            Advanced
+        </div>
+        <div class="advancedPageElement" id="advancedTop">
+            <h2 id="advancedTitle">
+                Advanced Search
+            </h2>
+            <h3>
+                find pages with...
+            </h3>
+            <form action="https://google.com/search">
+                <div class="advancedFormGroup">
+                    <input type="text" class="advancedSearchBox" id="allwords" name="as_q">
+                    <label for="allwords">all these words:</label>
+                </div>
+                <div class="advancedFormGroup">
+                    <input type="text" class="advancedSearchBox" id="exactwords" name="as_epq">
+                    <lable for="exactwords">this exact word or phrase:</lable>
+                </div>
+                <div class="advancedFormGroup">
+                    <input type="text" class="advancedSearchBox" id="anywords" name="as_oq">
+                    <label for="anywords">any of these words:</label>
+                </div>
+                <div class="advancedFormGroup" id="advancedButtonGroup">
+                    <input id="advancedButton" type="submit" value="Juno Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

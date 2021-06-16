@@ -21,12 +21,34 @@ span {
     padding: 20px;
 }
 
+.advancedPageElement {
+    text-align: left;
+    height: 10%;
+    max-height: 500px;
+    padding: 20px;
+    width: 50%;
+}
+
 .button {
     background-color: #E5E4E2;
     width: 20%;
     font-size: 120%;
     margin: 10px;
     margin-top: 20px;
+}
+
+.advancedSearchBox {
+    margin-left: auto;
+    width: 60%;
+    font-size: 130%;
+    margin-top: 10px;
+}
+
+.advancedFormGroup {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #top {
@@ -52,4 +74,21 @@ span {
 #imageLogo {
     margin-top: -50px;
     text-align: right;
+}
+
+#advancedTitle {
+    color: red;
+}
+
+#advancedButtonGroup {
+    justify-content: right;
+}
+
+#advancedButton {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    font-size: 120%;
+    margin: 10px;
+    margin-top: 20px;
 }
